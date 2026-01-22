@@ -1,0 +1,344 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 2rem;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #34495e;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
+
+/* About Section */
+.aboout {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aboout h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.abtwrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.abtimage {
+    flex: 1;
+    text-align: center;
+}
+
+.abtimage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.abttext {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.abttext h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.abttext p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Mission Section */
+.mission {
+    background-color: #ecf0f1;
+    padding: 4rem 2rem;
+}
+
+.mission h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.missioncard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mcardfeatures {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+}
+
+.mcardfeatures img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.mcardfeatures h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.mcardfeatures p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Services Section */
+.services {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.serviceslist {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #3498db;
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    background-color: #ecf0f1;
+}
+
+.featurescard {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+}
+
+.featurescard img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.featurescard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.featurescard p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Mission Statement */
+.mstatement {
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #34495e;
+    color: white;
+}
+
+.mstateimg {
+    flex: 1;
+    text-align: center;
+}
+
+.mstateimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mstatetext {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.mstatetext h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Partners Section */
+.patners {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.patners ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.patners li {
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    ul {
+        margin-top: 1rem;
+    }
+
+    .abtwrap, .mstatement {
+        flex-direction: column;
+    }
+
+    .abttext, .mstatetext {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .missioncard, .serviceslist, .features {
+        flex-direction: column;
+    }
+}
